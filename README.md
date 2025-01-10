@@ -21,14 +21,15 @@ These plugins are written in Lua and are meant to help you automate repetitive t
 
 ## Islandify
 
-Descriptio..  
-Example.
+This plugin is designed to create procedurally generated blocky islands. Using a selected part as a base, the plugin generates a 3D island model by stacking blocks of varying materials based on depth. The type of island (e.g., icy, sandy, or earthy) can be customized by modifying the depthRatio table in the code. 
+
+Examples.
 
 
 **Features:**
-- Feature 1
-- Feature 2
-- Feature 3
+- Dynamic Terrain Generation: Converts a rectangular part into blocky terrain based on the island type.
+- Efficient Unioning: Combines parts into unions for better performance and visual coherence.
+- Toolbar Integration: Adds a toolbar named BlockyIslands with a button labeled Islandify.
 
 ## Installation
 
