@@ -1,7 +1,55 @@
 -- Settings
-local colors = {stone = BrickColor.new("Dark stone grey"), dirt = BrickColor.new("Brown"), darkstone = BrickColor.new("Smoky grey") }
+local colors = {stone = BrickColor.new("Dark stone grey"), 
+	dirt = BrickColor.new("Brown"), 
+	darkstone = BrickColor.new("Smoky grey"),
+	sand = BrickColor.new("Gold"),
+	sandstone = BrickColor.new("Bright orange"),
+	darksandstone = BrickColor.new("Neon orange"),
+	
+	snow = BrickColor.new("Institutional white"),
+	deepsnow = BrickColor.new("Ghost grey"),
+	ice = BrickColor.new("Pastel Blue"),
+	deepice = BrickColor.new("Steel blue")
+	
+	
+	}
+
+
+
+--ICE DEPTH
 
 local depthRatio = {
+	[0] = {snow = 60, deepsnow = 40},
+	[1] = {snow = 30, deepsnow = 70},
+	[2] = {snow = 5, deepsnow = 85, ice = 10},
+	[3] = {deepsnow = 70, ice = 30},
+	[4] = {deepsnow = 50, ice = 40, deepice = 10},
+	[5] = {deepsnow = 30, ice = 50, deepice = 20},
+
+	["default"] = {deepsnow = 20, ice = 40, deepice = 40}
+}
+
+
+
+--DESERT DEPTH
+--[[
+local depthRatio = {
+	[0] = {sand = 20, sandstone = 80},
+	[1] = {sand = 8, sandstone = 92},
+	[2] = {sand = 1, sandstone = 99},
+	[3] = {sandstone = 100},
+	[4] = {sandstone = 90, darksandstone = 10},
+	[5] = {sandstone = 70, darksandstone = 30},
+
+	["default"] = {sand = 0, sandstone = 60, darksandstone = 40}
+}
+]]
+
+
+
+--DIRT DEPTH
+	--[[
+	local depthRatio = {
 	[0] = {dirt = 98, stone = 2},
 	[1] = {dirt = 95, stone = 5},
 	[2] = {dirt = 85, stone = 15},
@@ -10,9 +58,8 @@ local depthRatio = {
 	[5] = {dirt = 3, stone = 70, darkstone = 27},
 
 	["default"] = {dirt = 0, stone = 60, darkstone = 40}
-}
-
-
+} 
+-- ]]
 
 
 
