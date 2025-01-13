@@ -23,7 +23,8 @@ These plugins are written in Lua and are meant to help you automate repetitive t
 
 This plugin is designed to create procedurally generated blocky islands. Using a selected part as a base, the plugin generates a 3D island model by stacking blocks of varying materials based on depth. The type of island (e.g., icy, sandy, or earthy) can be customized by modifying the depthRatio table in the code. 
 
-Examples.
+### Example
+<img src="https://github.com/xavierhampton/RBX-Plugins/blob/main/examples/IslandExamples.png">
 
 
 **Features:**
