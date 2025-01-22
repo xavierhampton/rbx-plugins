@@ -9,6 +9,7 @@ These plugins are written in Lua and are meant to help you automate repetitive t
 ### Plugins
 
 - [Islandify](#islandify)
+- [LowPolyRocks](#lowpolyrocks)
 
 ### Extra
 
@@ -31,6 +32,25 @@ This plugin is designed to create procedurally generated blocky islands. Using a
 - Dynamic Terrain Generation: Converts a rectangular part into blocky terrain based on the island type.
 - Efficient Unioning: Combines parts into unions for better performance and visual coherence.
 - Toolbar Integration: Adds a toolbar named BlockyIslands with a button labeled Islandify.
+
+## LowPolyRocks
+
+This plugin allows you to create random low poly rocks by cloning and manipulating parts in your Roblox Studio workspace. When activated, the plugin generates multiple low-poly rock formations based on a selected part, giving them a blocky, random appearance with varying sizes and positions.
+
+### Example
+
+
+**Features:**
+- Randomly adjusts the size, position, and rotation of the generated parts to create a natural, blocky rock formation.
+- Supports density settings for the number of rocks and offset options for position and size.
+- Automatically merges the generated rocks into a single union for easy handling.
+  
+
+**Settings:**
+- ```density``` (default: 20): Determines how many rocks will be generated. Increase the number to add more rocks to the formation.
+- ```positionOffset``` (default: 3): Controls the maximum variation in position for the generated rocks. Increasing this value will make the rocks spread out more.
+- ```sizeOffset``` (default: 2): Controls the size variation of each generated rock. A higher value will create more diverse sizes for the rocks.
+
 
 ## Installation
 
