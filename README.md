@@ -38,6 +38,8 @@ This plugin is designed to create procedurally generated blocky islands. Using a
 This plugin allows you to create random low poly rocks by cloning and manipulating parts in your Roblox Studio workspace. When activated, the plugin generates multiple low-poly rock formations based on a selected part, giving them a blocky, random appearance with varying sizes and positions.
 
 ### Example
+<img src="https://github.com/xavierhampton/RBX-Plugins/blob/main/examples/RockExamples.png">
+
 
 
 **Features:**
